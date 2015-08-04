@@ -23,6 +23,7 @@ apt_cacher_ng_port: 3142
 apt_cacher_server: []  #defines hostname of server...define here or gloabally group_vars/all/servers
 apt_cacher_passthrough_patterns:
   - .*  #allowing everything to be cached and connected to
+enable_apt_caching: false  #defines if apt-caching should be used for clients...define here or globally group_vars/all/configs
 ````
 
 Dependencies
